@@ -48,6 +48,13 @@ body{
 .detail-label{font-family:'Cinzel',serif;font-size:8.5px;letter-spacing:.5em;text-transform:uppercase;color:var(--saffron);margin-bottom:4px}
 .detail-value{font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--deep);letter-spacing:.02em}
 .detail-sub{font-family:'Jost',sans-serif;font-weight:200;font-size:10.5px;letter-spacing:.2em;color:var(--muted);margin-top:2px}
+.venue-sub {
+  font-size: 14px; /* smaller than .detail-value's 22px */
+  color: var(--deep);
+  letter-spacing: .02em;
+  margin-top: 2px;
+  font-family: 'Cormorant Garamond', serif;
+}
 .hashtag{margin-top:22px;font-family:'Cinzel',serif;font-size:16px;font-weight:600;color:var(--maroon);letter-spacing:.12em;animation-delay:.86s}
 .hashtag::before,.hashtag::after{content:'\2756';color:var(--gold);margin:0 8px;font-size:10px;vertical-align:middle}
 .footer-note{margin-top:14px;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:12.5px;color:var(--muted);line-height:1.7;max-width:280px;animation-delay:.92s;opacity:.85}
@@ -277,7 +284,8 @@ body{
       </div>
       <div class="detail-row">
         <div class="detail-label">Venue &middot; Sthanam</div>
-        <div class="detail-value">HO Convention Hall, Urmila Nagar</div>
+        <div class="detail-value">HO Convention Hall</div>
+        <div class="venue-sub">Urmila Nagar, Vijayawada</div>
         <div class="detail-sub">Ceremony &amp; Reception</div>
       </div>
     </div>
